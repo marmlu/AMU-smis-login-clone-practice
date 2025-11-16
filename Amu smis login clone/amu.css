@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  background-color: aliceblue;
+}
+.carousel-container {
+  background-image: url("Images/back.png");
+  height: 450px;
+  background-size: cover;
+}
+.navbar-light {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbarNavDropdown {
+  margin-right: 30px;
+}
+ul.dropdown-menu {
+  display: none;
+}
+ul.navbar-nav {
+  display: flex;
+  gap: 15px;
+  float: right;
+}
+.overlay-left {
+  float: left;
+  width: 50%;
+}
+
+.overlay-right {
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+.overlay-right form {
+  background-color: white;
+  margin-top: 15px;
+  padding: 25px;
+  opacity: 0.7;
+  width: auto;
+}
+.mb-3 {
+  width: auto;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  border-radius: 5px;
+  margin-top: 10px;
+
+  padding: 5px;
+}
+.mt-3 {
+  text-align: center;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+input[type="password"] {
+  background-color: white;
+  margin-top: 10px;
+}
+.featured-item {
+  width: 220px;
+  height: 120px;
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+}
+.featured-grid .row {
+  display: flex;
+  gap: 15px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  text-align: center;
+}
