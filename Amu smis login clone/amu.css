@@ -7,10 +7,9 @@ body {
   background-color: aliceblue;
 }
 .carousel-container {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* dark overlay */
-    url('Images/back.png') no-repeat center center;
-    height: 330px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    /* dark overlay */ url("Images/back.png") no-repeat center center;
+  height: 330px;
   background-size: cover;
 }
 .navbar-light {
@@ -37,13 +36,13 @@ ul.navbar-nav {
   margin-left: 10%;
   margin-top: 3%;
 }
-.fw-bold{
+.fw-bold {
   color: white;
   font-weight: calc(20000);
   margin-top: 15px;
   font-size: xx-large;
 }
-.p1{
+.p1 {
   color: white;
   margin-top: 10px;
   font-weight: bold;
@@ -59,35 +58,35 @@ ul.navbar-nav {
 /* .overlay-right hr {
   width: 100%;
 } */
- .overlay-right  {
-  background-color: white;
+.overlay-right {
   margin-top: 30px;
   padding: 20px;
-  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.4); /* semi-transparent background */
+
   width: auto;
   float: right;
   width: 25%;
   margin-right: 12%;
   border-radius: 15px;
   height: 85%;
-} 
+}
 /* .overlay-right .input-group,
 .overlay-right .btn,
 .overlay-right a.btn {
   width: 100%; /* force equal width */
-} */
-.text-dark {
-
-margin-bottom: 25px; 
-} 
-input[type=text]{
+*/ .text-dark {
+  margin-bottom: 25px;
+}
+input[type="text"] {
   margin-top: 20px;
   font-weight: bold;
-  background-color: white;
+  background-color: white !important;
   padding: 8px;
- width: 80%;
+  width: 80%;
   border-radius: 8px;
   border-color: white;
+  color: black !important;
+  border: 1px solid #ccc;
 }
 
 input[type="submit"] {
@@ -96,7 +95,7 @@ input[type="submit"] {
   border-color: blue;
   border-radius: 5px;
   margin-top: 20px;
-width: 85%;
+  width: 85%;
   padding: 8px;
 }
 .mt-3 {
@@ -107,11 +106,14 @@ width: 85%;
   margin-top: 20px;
   width: 85%;
 }
+
 input[type="password"] {
   background-color: white;
   margin-top: 20px;
-    padding: 8px;
-    width: 80%;
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 .featured-item {
   width: 220px;
