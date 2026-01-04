@@ -1,0 +1,24 @@
+.popular {
+  position: relative;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.popular::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #aaa;
+  z-index: 1;
+}
+
+.popular span {
+  background: white;
+  padding: 0 15px;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+}
