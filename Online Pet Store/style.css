@@ -100,9 +100,29 @@
 .pet-img {
   width: 200px;
   height: 200px;
+  border-radius: 5px;
 }
 .pet {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+.pet-shop {
+  color: white;
+  padding: 6px 20px;
+  font-size: 18px;
+  background-color: #40409b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pet p,
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
